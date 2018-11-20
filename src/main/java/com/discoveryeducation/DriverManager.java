@@ -30,7 +30,7 @@ public class DriverManager {
 
         if (browser.equalsIgnoreCase("chrome"))
         {
-            System.setProperty("webdriver.chrome.driver", "C:\\Users\\sjain1\\Downloads\\chromedriver_win32\\chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
             driver = new ChromeDriver();
         }
         else if (browser.equalsIgnoreCase("firefox"))
