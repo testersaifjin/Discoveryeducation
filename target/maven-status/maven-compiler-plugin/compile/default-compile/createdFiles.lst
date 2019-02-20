@@ -1,1 +1,5 @@
-com\discoveryeducation\App.class
+com\discoveryeducation\Utils.class
+com\discoveryeducation\DriverManager.class
+Pages\ProfilePage.class
+Pages\HomePage.class
+Pages\Dashboard.class

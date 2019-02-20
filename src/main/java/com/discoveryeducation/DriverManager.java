@@ -7,12 +7,13 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
+import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 public class DriverManager {
-    static WebDriver driver;
-    static String browser;
-    static String url;
+    public static WebDriver driver;
+    public static String browser;
+    public static String url;
 
     public static void properties() throws IOException {
         Properties properties = new Properties();
@@ -47,5 +48,17 @@ public class DriverManager {
     public void closeBrowser()
     {
         driver.close();
+    }
+
+    public static String random()
+    {
+        Random random = new Random();
+        return random.nextInt()+"saif";
+    }
+
+    public static String randomOne()
+    {
+        Random randomOne = new Random();
+        return randomOne.nextInt()+ "folder";
     }
 }

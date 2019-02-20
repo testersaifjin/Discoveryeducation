@@ -9,5 +9,8 @@
         <module name="DiscoveryEducation" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="DiscoveryEducation" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>
